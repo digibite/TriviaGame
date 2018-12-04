@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <style>
+            body {
+                background-image: url("assets/images/90s-collage.jpg");
+            }
+        </style>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>Totally Trivial Trivia!</h1>
+        <!-- Only 2 question have been added to this game on purpose.  No need to add 10 or 20 if the logic works right? -->
+
+        <div class="wrapper">
+            <a href="#" class="myButton">START</a>
+
+            <div class="wrapper2">
+
+            </div>
+
+            <div class="wrapper3">
+                <h1>Time Lefts: &nbsp&nbsp<span id="timeLeft"></span></h1>
+                <h3>Sega does</h3>
+                <input class="btn1" type="radio" name="sega-does" value="1"> Watever it ever it wants&nbsp;&nbsp;
+                <input class="btn1" type="radio" name="sega-does" value="2"> What atari does&nbsp;&nbsp;
+                <input class="btn1" type="radio" name="sega-does" value="3"> What Nintendon't&nbsp;&nbsp;
+                <input class="btn1" type="radio" name="sega-does" value="4"> what the fans want&nbsp;&nbsp;
+                <br>
+                <br>
+
+                <h3>Who directed the first jurassic park</h3>
+                <input class="btn2" type="radio" name="jurassic-director" value="5"> george lucas&nbsp;&nbsp;
+                <input class="btn2" type="radio" name="jurassic-director" value="6"> steven spielberg&nbsp;&nbsp;
+                <input class="btn2" type="radio" name="jurassic-director" value="7"> jj abrams&nbsp;&nbsp;
+                <input class="btn2" type="radio" name="jurassic-director" value="8"> vinicio del toro&nbsp;&nbsp;
+                <br>
+                <br>
+
+                <button class="done">
+                    DONE!
+                </button>
+
+            </div>
+
+
+            <div class="lastWrapper">
+                <h1>Correct answer:&nbsp;&nbsp;<span id="correct"></span></h1>
+                <h1>Incorrect answers:&nbsp;&nbsp;<span id="incorrect"></span></h1>
+                <h1>Unanswered:&nbsp;&nbsp;<span id="unanswered"></span></h1>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

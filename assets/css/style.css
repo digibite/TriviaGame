@@ -1,0 +1,81 @@
+* {
+    margin: 0 auto;
+    display: static;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url("assets/images/90s-collage.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    margin: auto 0% 15% 0% 15%;
+    /* margin-top: 10%; */
+    background: rgb(2, 0, 36);
+    background: linear-gradient(84deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 22%, rgba(0, 212, 255, 1) 100%), rgb(247, 247, 247);
+    height: 720px;
+    width: 720px;
+}
+
+ h1 {
+    /* padding-top: 10%; */
+    text-align: center;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    /* padding-top: 10%; */
+    text-align: center;
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 25px;
+}
+
+.wrapper {
+    text-align: center;
+    
+}
+
+
+
+.myButton {
+    background-color: #44c767;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    border: 4px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    /* font-family: Arial; */
+    font-size: 28px;
+    padding: 25px 76px;
+    text-decoration: none;
+    text-shadow: 0px 7px 5px #2f6627;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.myButton:hover {
+    background-color: #5cbf2a;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.wrapper2 {
+    text-align: center;
+    
+}
